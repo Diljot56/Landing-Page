@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position:sticky;
+  top:0;
+  z-index:1000;
+  color: #ffffff;
+  padding: 0.6rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 4rem;
+}
+
+.navbar .btn1{
+  margin-right: 4rem;
+  padding: 0.5rem 1.5rem;
+  background-color:white;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #c4c5c5;
+}
+
+.gradient-text {
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 6rem;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #dbe2ea, #6c7582);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  line-height: 1;
+}
+
+.centered-hero {
+  padding: 4rem 2rem;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content-centered {
+  max-width: 1000px;
+  margin-bottom: 2rem;
+}
+
+.hero-content-centered p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #706f6f;
+}
+
+.hero-image-centered img {
+  border-radius: 10px;
+  border:2px solid gray;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.5s ease;
+}
+
+img:hover{
+  opacity:0.7;
+}
+
+.btn2 {
+  padding: 0.8rem 1.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #c4c5c5;
+}
+
+
+.how-it-works, .features {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #000000;
+}
+
+.how-it-works h2,
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps, .feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.step, .card {
+  background: #000000;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.card{
+    border:2px solid rgb(81, 80, 80);
+    transition:border-color 0.5s ease;
+}
+.card:hover{
+    border:2px solid white;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #a2aab9, #e6e9f0 40%, #3f4857);
+  color: #000000;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
